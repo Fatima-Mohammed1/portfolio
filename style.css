@@ -1094,7 +1094,14 @@ img {
   .orbit {
     display: none;
 }
-
+    .portfolio-title-wrapper {
+    grid-row-gap: 1.5rem;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    justify-items: start;
+  }
+}
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
@@ -1207,6 +1214,14 @@ img {
 
   .circle {
     display: none;
+  }
+
+  .portfolio-title-wrapper {
+    grid-row-gap: 1.5rem;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    justify-items: start;
   }
 
   .orbit {
