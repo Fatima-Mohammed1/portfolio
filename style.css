@@ -1093,8 +1093,8 @@ img {
 @media screen and (max-width: 1000px) {
   .orbit {
     display: none;
-}
-    .portfolio-title-wrapper {
+  }
+  .portfolio-title-wrapper {
     grid-row-gap: 1.5rem;
     flex-direction: column;
     grid-template-columns: 1fr;
